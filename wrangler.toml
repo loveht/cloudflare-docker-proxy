@@ -1,5 +1,8 @@
 name = "cloudflare-docker-proxy"
-compatibility_date = "2023-12-01"
+type = "javascript"
+main = "src/index.js"
+compatibility_date = "2025-08-01"
+
 
 [dev]
 ip = "0.0.0.0"
@@ -16,7 +19,7 @@ CUSTOM_DOMAIN = "exmaple.com"
 
 [env.production]
 name = "cloudflare-docker-proxy"
-main = "src/index.js"
+
 # routes = [
 #   { pattern = "docker.libcuda.so", custom_domain = true },
 #   { pattern = "quay.libcuda.so", custom_domain = true },
