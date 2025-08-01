@@ -3,6 +3,8 @@ type = "javascript"
 main = "src/index.js"
 compatibility_date = "2025-08-01"
 
+[vars]
+CUSTOM_DOMAIN = "loveht.xyz"
 
 [dev]
 ip = "0.0.0.0"
